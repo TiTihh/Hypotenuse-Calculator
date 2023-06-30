@@ -4,7 +4,6 @@
 using namespace std;
 
 int main(){
-
 	cout << "**********Hytotenuse Calculator**********" << endl;
 	cout << "\n";
 	cout << "Cateto A: "; //I'm portuguese, so idk what are that thing that "builds" the Hypotenuse
@@ -17,8 +16,8 @@ int main(){
 	cout << "Cateto A is " << CatetoA << ";" << endl;
 	cout << "Cateto B is " << CatetoB << ";" << endl;
 	double PcatetoA = pow(CatetoA, 2);
-  double PcatetoB = pow(CatetoB, 2);
-  double Result = PcatetoA + PcatetoB;
+  	double PcatetoB = pow(CatetoB, 2);
+  	double Result = PcatetoA + PcatetoB;
 	double FinalResult = sqrt(Result);
 	cout << "The result is: " << FinalResult;
 }
